@@ -17,9 +17,7 @@ def plot_history(history, figsize=(12,8)):
 
   """
   
-  # Check if matplotlib has been imported
-  if "plt" not in globals():
-    import matplotlib.pyplot as plt
+  import matplotlib.pyplot as plt
 
   # Extract a dictionary from the history object
   history = history.history
