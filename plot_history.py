@@ -1,6 +1,7 @@
 def plot_history(history, figsize=(12,8)):
   """
   Plots the Accuracy and Loss history collected during model training.
+  Requires matplotlib.pyplot imported as plt.
   
   Parameters:
     history: <history.History>
@@ -16,8 +17,6 @@ def plot_history(history, figsize=(12,8)):
   Returns: None
 
   """
-  
-  import matplotlib.pyplot as plt
 
   # Extract a dictionary from the history object
   history = history.history
